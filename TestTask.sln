@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1D000344-E58F-4AEB-9D69-75DD90DAC6EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringTranformer", "src\StringTranformer\StringTranformer.csproj", "{B9A72EC9-6398-40E0-B431-4B95B0A3B614}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{AEF9A309-7DD4-4708-85F7-8CBEB82B794A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transformers", "src\shared\Transfromers\Transformers.csproj", "{DFBA081C-B6FC-43D4-AC3C-12D66C00FE7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringTranformerV2", "src\StringTranformerV2\StringTranformerV2.csproj", "{B7BD2492-BA69-4697-A277-B586A7544CD1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringTranformerV3", "src\StringTranformerV3\StringTranformerV3.csproj", "{0817DC27-7573-40C6-B16E-761F85274073}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{22266066-346B-4D4D-ACF3-56E7038F5818}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringTransformer.Tests", "test\StringTransformer.Tests\StringTransformer.Tests\StringTransformer.Tests.csproj", "{D311D624-1E0E-4F25-BA59-3EF209BB8F82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{217A4306-5B59-4DE7-ABF1-F1C48F0ECB58}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9A72EC9-6398-40E0-B431-4B95B0A3B614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A72EC9-6398-40E0-B431-4B95B0A3B614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A72EC9-6398-40E0-B431-4B95B0A3B614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A72EC9-6398-40E0-B431-4B95B0A3B614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFBA081C-B6FC-43D4-AC3C-12D66C00FE7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFBA081C-B6FC-43D4-AC3C-12D66C00FE7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFBA081C-B6FC-43D4-AC3C-12D66C00FE7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFBA081C-B6FC-43D4-AC3C-12D66C00FE7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7BD2492-BA69-4697-A277-B586A7544CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7BD2492-BA69-4697-A277-B586A7544CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7BD2492-BA69-4697-A277-B586A7544CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7BD2492-BA69-4697-A277-B586A7544CD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0817DC27-7573-40C6-B16E-761F85274073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0817DC27-7573-40C6-B16E-761F85274073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0817DC27-7573-40C6-B16E-761F85274073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0817DC27-7573-40C6-B16E-761F85274073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D311D624-1E0E-4F25-BA59-3EF209BB8F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D311D624-1E0E-4F25-BA59-3EF209BB8F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D311D624-1E0E-4F25-BA59-3EF209BB8F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D311D624-1E0E-4F25-BA59-3EF209BB8F82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B9A72EC9-6398-40E0-B431-4B95B0A3B614} = {1D000344-E58F-4AEB-9D69-75DD90DAC6EE}
+		{AEF9A309-7DD4-4708-85F7-8CBEB82B794A} = {1D000344-E58F-4AEB-9D69-75DD90DAC6EE}
+		{DFBA081C-B6FC-43D4-AC3C-12D66C00FE7B} = {AEF9A309-7DD4-4708-85F7-8CBEB82B794A}
+		{B7BD2492-BA69-4697-A277-B586A7544CD1} = {1D000344-E58F-4AEB-9D69-75DD90DAC6EE}
+		{0817DC27-7573-40C6-B16E-761F85274073} = {1D000344-E58F-4AEB-9D69-75DD90DAC6EE}
+		{D311D624-1E0E-4F25-BA59-3EF209BB8F82} = {22266066-346B-4D4D-ACF3-56E7038F5818}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55D3E373-5F6C-48D8-A201-6EE26FCC309B}
+	EndGlobalSection
+EndGlobal
